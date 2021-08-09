@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+    <title>Shifumi Game</title>
+</head>
+
+<body>
+    <!-- <div id="logo">
+        <img src="images/logo.png" alt="logo alien and title">
+    </div> -->
+    <div class="container">
+
+        <!--MAIN CONTAINER RESPONSIVE BOOTSRAP-->
+
+        <div id="boxRulesLogo">
+            
+            <div id="rules">
+                <h1>SHIFUMI GAME</h1>
+                <h2>Rules</h2>
+                <p><img class="icon" src="images/scissors2.png"
+                        alt="Icon scissors created by tulpahn from Noun Project"> : Scissors cut the paper and behead
+                    the lizard</p>
+                <p><img class="icon" src="images/plantPaper.png"
+                        alt="Icon Branch Plant created by Alex Muravev from Noun Project"> : Paper beats Rock and repels
+                    Spock</p>
+                <p><img class="icon" src="images/moutainRock.png"
+                        alt="Icon Mountains created by Montana Rucobo from Noun Project"> : Rock crushes the lizard and
+                    beats the scissors</p>
+                <p><img class="icon" src="images/scissors2.png"
+                        alt="Icon scissors created by tulpahn from Noun Project"> : Lizard poisons Spock and eats paper
+                </p>
+                <p><img class="icon" src="images/alienSpock.png"
+                        alt="Icon lizard created by Alice Noir from Noun Project"> : Spock crushes the scissors and
+                    destroys the rock</p>
+            </div>
+        </div>
+   
+   <h3 class="mt-md-5 mt-3 text-center">Make Your Choice</h3>
+
+        <div class="shifumiChoices d-flex justify-content-center my-3 my-md-5 mx-lg-5">
+
+           
+
+            <button class="choice" data-choice="rock"><img class="iconchoice" src="images/moutainRock.png"
+                    alt="Icon Mountains created by Montana Rucobo from Noun Project"></button>
+            <button class="choice" data-choice="paper"><img class="iconchoice" src="images/plantPaper.png"
+                    alt="Icon Branch Plant created by Alex Muravev from Noun Project"></button>
+            <button class="choice" data-choice="scissors"><img class="iconchoice" src="images/scissors2.png"
+                    alt="Icon scissors created by tulpahn from Noun Project"></button>
+            <button class="choice" data-choice="lizard"><img class="iconchoice" src="images/lizard.png"
+                    alt="Icon lizard created by Alice Noir from Noun Project"></button>
+            <button class="choice" data-choice="spock"><img class="iconchoice" src="images/alienSpock.png"
+                    alt="Icon lizard created by Alice Noir from Noun Project"></button>
+        </div>
+
+        <div class="results">
+            <div>You <span class="score" data-player-score>0</span></div>
+            <div data-final-column>Computer <span class="score" data-computer-score>0</span></div>
+            <div class="resultLastGame"></div>
+        </div>
+
+
+    </div>
+    <!--END OF THE MAIN CONTAINER-->
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>
